@@ -1,0 +1,82 @@
+.wrap {
+  font-family: "SUITE-Regular";
+  padding: 10px 0;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  transition: all ease-in-out 10s;
+}
+
+.wrap:last-of-type {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.info {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.relation {
+  color: #44484d;
+}
+
+.name {
+  font-size: 1rem;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copybutton {
+  border: none;
+  border-radius: 5px;
+  padding: 0.1em 0.2em;
+  cursor: pointer;
+  gap: 2px;
+  outline: none;
+  box-shadow: none;
+  background: white;
+}
+
+.accountlink {
+  display: flex;
+  width: 100%;
+  gap: 2px;
+}
+
+.accountbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 0 0.8em;
+  width: inherit;
+  font-size: 0.7rem;
+  cursor: pointer;
+  gap: 2px;
+  color: #1a1a1a;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  background: white;
+}
+
+.img {
+  filter: opacity(0.5) drop-shadow(0 0 0 wheat);
+}
+.kakaopayimg {
+  width: 50px;
+}
+
+.tossimg {
+  width: 70px;
+}

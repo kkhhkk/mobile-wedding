@@ -1,0 +1,40 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.title {
+  /* font-family: HSSanTokki20-Regular, serif; */
+  line-height: 1;
+  margin: 0;
+  /* color: #e88ca6; */
+  color: #bea5ff;
+  white-space: pre-line;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.desc {
+  font-weight: 300;
+  text-align: "start";
+  white-space: pre-line;
+  font-size: 15px;
+}
+
+.emoji {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.info {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  text-align: center;
+  white-space: pre-line;
+  font-size: 20px;
+}

@@ -1,0 +1,84 @@
+.cal_container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cal_container :global(.react-calendar) {
+  width: 400px;
+  max-width: 100%;
+  background: white;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cal_container :global(.react-calendar__navigation) {
+  /* background: pink; */
+  /* background-color: #9c8f86; */
+  background-color: #efefef;
+  border-bottom: 4px solid #bea5ff;
+  height: 60px;
+  border-radius: 15px 15px 0 0;
+}
+
+.cal_container :global(.react-calendar__navigation__label > span) {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cal_container :global(.react-calendar__navigation button:disabled) {
+  /* background-color: #e88ca6; */
+  border-radius: 10px 10px 0 0;
+}
+
+.cal_container
+  :global(
+    .react-calendar__navigation button:enabled:hover,
+    .react-calendar__navigation button:enabled:focus
+  ) {
+  background-color: #9c8f86;
+  /* background-color: #e88ca6; */
+  border-radius: 10px 10px 0 0;
+}
+
+.cal_container :global(.react-calendar__month-view > abbr) {
+  padding: 12px 32px;
+  color: brown;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cal_container :global(.react-calendar__month-view__weekdays > abbr) {
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.cal_container :global(.react-calendar__tile) {
+  text-align: center;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cal_container :global(.react-calendar__tile--active) {
+  font-weight: 800;
+  color: red;
+  background-color: #bea5ff;
+  /* background-color: turquoise; */
+  transform: scale(0.8);
+  border-radius: 30px;
+}
+
+/*hover, focus, 선택됐을 시 */
+.cal_container
+  :global(
+    .react-calendar__tile:enabled:hover,
+    .react-calendar__tile:enabled:focus,
+    .react-calendar__tile--active
+  ) {
+  background: red;
+  border-radius: 14px;
+}

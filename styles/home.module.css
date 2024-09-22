@@ -1,0 +1,11 @@
+.container {
+  justify-content: center;
+  /* display: flex; */
+  vertical-align: top;
+  text-align: center;
+  max-width: 100vw;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,84 @@
+.title {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 10px;
+  color: #d4c7c8;
+  padding-bottom: 20px;
+}
+
+.list {
+  width: 90%;
+  max-width: 450px;
+  height: 400px;
+  background-color: #d4c7c8;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.formwrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: visible;
+  align-items: center;
+  width: 50%;
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 1rem;
+  line-height: 1;
+  outline: none;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-weight: 300;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 1rem;
+  line-height: 1.5;
+  outline: none;
+  border: 1px solid #ccc;
+  resize: none;
+  font-family: inherit;
+  font-weight: 300;
+}
+.button {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid lightgray;
+  background-color: #f6f6f6;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+}

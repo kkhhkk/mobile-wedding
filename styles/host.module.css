@@ -1,0 +1,35 @@
+.hostcontainer {
+  gap: 4px;
+  font-family: HSSanTokki20-Regular, serif;
+}
+
+.host {
+  padding: 0 55px;
+  justify-content: center;
+  white-space: nowrap;
+  display: flex;
+  gap: 6px;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.text {
+  font-style: normal;
+  line-height: 26px;
+  width: 50px;
+  display: flex;
+  gap: 6px;
+}
+
+.relation {
+  width: inherit;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  /* color: #4f4f4f; */
+  color: black;
+  margin-left: 8px;
+}

@@ -1,0 +1,46 @@
+.img {
+  border-radius: 150px 150px 0 0;
+  width: 90%;
+  max-width: 450px;
+  padding-top: 10px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+.img:hover {
+  opacity: 1;
+}
+
+.h3 {
+  font-family: HSSanTokki20-Regular, serif;
+  font-size: 2rem;
+  color: #2f2120;
+  line-height: 120%;
+  white-space: pre-line;
+}
+
+.p {
+  font-size: 1.1rem;
+  color: #2f2120;
+  line-height: 140%;
+  white-space: pre-line;
+}
+
+.h2 {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 10px;
+  color: #d4c7c8;
+  /* white-space: pre-line; */
+  padding-bottom: 20px;
+}
+
+.image {
+  width: 90%;
+  max-width: 450px;
+  height: 460px;
+}
+.message {
+  line-height: 2.2rem;
+  white-space: pre-line;
+}

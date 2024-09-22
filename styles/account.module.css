@@ -1,0 +1,15 @@
+.title {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 10px;
+  color: #d4c7c8;
+  /* white-space: pre-line; */
+  padding-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
